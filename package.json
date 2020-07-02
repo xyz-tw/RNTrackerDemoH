@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "react-native-tracker": "https://trackers.wogaa.sg/react-native/Tracker-1.1.4.tar.gz"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

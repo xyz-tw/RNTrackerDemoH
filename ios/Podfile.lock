@@ -292,6 +292,10 @@ PODS:
     - React-cxxreact (= 0.62.2)
     - React-jsi (= 0.62.2)
     - ReactCommon/callinvoker (= 0.62.2)
+  - RNTracker (1.1.4):
+    - React
+    - Tracker (~> 1.1.4)
+  - Tracker (1.1.5)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -343,9 +347,12 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/callinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNTracker (from `../node_modules/react-native-tracker`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
+  https://github.com/wogaa/Specs.git:
+    - Tracker
   trunk:
     - boost-for-react-native
     - CocoaAsyncSocket
@@ -409,6 +416,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNTracker:
+    :path: "../node_modules/react-native-tracker"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -448,9 +457,11 @@ SPEC CHECKSUMS:
   React-RCTText: fae545b10cfdb3d247c36c56f61a94cfd6dba41d
   React-RCTVibration: 4356114dbcba4ce66991096e51a66e61eda51256
   ReactCommon: ed4e11d27609d571e7eee8b65548efc191116eb3
+  RNTracker: b17aee52865791fef4ff546d4e268d897d3c4e35
+  Tracker: e9b7e828dc0494571d0b9251fbe94f872218247b
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 41db0056a7b3b3975c0de4bb3e49e487a97d4965
+PODFILE CHECKSUM: d993f13ea8328c62eb0ff1996201d68ec5890a50
 
 COCOAPODS: 1.9.3
