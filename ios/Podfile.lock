@@ -292,10 +292,10 @@ PODS:
     - React-cxxreact (= 0.62.2)
     - React-jsi (= 0.62.2)
     - ReactCommon/callinvoker (= 0.62.2)
-  - RNTracker (1.1.4):
+  - RNTracker (1.2.0):
     - React
-    - Tracker (~> 1.1.4)
-  - Tracker (1.1.5)
+    - Tracker (~> 1.2.0)
+  - Tracker (1.2.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -351,9 +351,7 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  https://github.com/wogaa/Specs.git:
-    - Tracker
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - boost-for-react-native
     - CocoaAsyncSocket
     - CocoaLibEvent
@@ -366,6 +364,8 @@ SPEC REPOS:
     - FlipperKit
     - OpenSSL-Universal
     - YogaKit
+  https://github.com/wogaa/Specs.git:
+    - Tracker
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -457,8 +457,8 @@ SPEC CHECKSUMS:
   React-RCTText: fae545b10cfdb3d247c36c56f61a94cfd6dba41d
   React-RCTVibration: 4356114dbcba4ce66991096e51a66e61eda51256
   ReactCommon: ed4e11d27609d571e7eee8b65548efc191116eb3
-  RNTracker: b17aee52865791fef4ff546d4e268d897d3c4e35
-  Tracker: e9b7e828dc0494571d0b9251fbe94f872218247b
+  RNTracker: c86a640bc4ca44cc8d3e312577c3183d5c1f1b3f
+  Tracker: 9882fe9273b48be2689ab545dba9026cad6ac19a
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
